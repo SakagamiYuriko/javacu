@@ -244,7 +244,6 @@ public class Qes1_13 {
 **************************************************************************/
 //	    11で変換した【年齢・身長】を整数型に変換して出力してください
 	    int heightChange1=(int)Double.parseDouble(heightChange);
-//	    int i = (int)Double.parseDouble(d);
 	    System.out.println("身長は"+heightChange1+"cmです");
 	    
 	    int weightChange1=(int)Double.parseDouble(weightChange);
