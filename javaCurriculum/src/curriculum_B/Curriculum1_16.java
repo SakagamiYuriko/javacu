@@ -59,7 +59,9 @@ public class Curriculum1_16 {
 		int winCount=0;
 		int loseCount=0;
 //		スキャナーのインスタンス化
-		Scanner stdin=new Scanner(System.in);
+		Scanner stdin = new Scanner(System.in);
+		
+		
 		while(winCount<3 && loseCount<3) {
 //			メッセージの表示
 			System.out.println("じゃんけんポン！(グー：0，チョキ：1、パー：2　どれかの数字をいれてください。)");
@@ -94,8 +96,7 @@ public class Curriculum1_16 {
 		
 				}
 			
-//			Scannerをクローズ
-			stdin.close();
+			
 				
 			}
 		}
